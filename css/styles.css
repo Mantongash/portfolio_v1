@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,700|Marck+Script&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header Styles*/
+header {
+  background: #9fff9c;
+  height: 100vh;
+}
+
+header h2 {
+  font-family: "Marck Script";
+  color: #40803e;
+}
+
+.logo-break {
+  display: block;
+}
+
+/* Link Styles */
+a {
+  text-decoration: none;
+  color: #40803e;
+  text-transform: uppercase;
+}
+
+/* Navbar styling */
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 30%;
+}
