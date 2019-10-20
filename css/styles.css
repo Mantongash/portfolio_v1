@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Lato";
+}
+
 /* Header Styles*/
 header {
   background: #9fff9c;
@@ -21,11 +25,38 @@ header h2 {
   display: block;
 }
 
+#description {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#description h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+#description p {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
 /* Link Styles */
-a {
+ul li a {
   text-decoration: none;
   color: #40803e;
   text-transform: uppercase;
+  font-weight: 700;
+  display: block;
+  padding: 20px 0;
+}
+
+ul li a:hover {
+  border-bottom: 2px solid #40803e;
 }
 
 /* Navbar styling */
@@ -39,7 +70,7 @@ nav {
 
 nav ul {
   display: flex;
-  justify-content: space-between;
+
   list-style-type: none;
-  width: 30%;
+  width: 40%;
 }
