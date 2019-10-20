@@ -97,18 +97,25 @@ nav ul {
 #about {
   height: 70vh;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
 #about-me {
-  width: 80%;
+  width: 55%;
   font-size: 1.5rem;
-  /* line-height: 3rem; */
+  line-height: 2.1rem;
 }
 
 #about-me p:nth-child(2) {
   margin: 20px 0;
+}
+
+.ninja {
+  background: url(../images/ninja1.png) no-repeat center center/cover;
+  width: 30%;
+  height: 300px;
+  display: block;
 }
 
 /* About section links */
@@ -123,7 +130,6 @@ nav ul {
 .freecodecamp,
 .freecodecamp-profile,
 .moringa {
-  display: inline-block;
   text-decoration: none;
   color: #fff;
   border-radius: 4px;
@@ -134,4 +140,23 @@ nav ul {
 
 .freecodecamp-profile {
   background: #0a0a23;
+}
+
+/* HR pseudo elements */
+#about-me::before {
+  content: "";
+  background: #40803e;
+  width: 30%;
+  height: 2px;
+  display: block;
+  margin: 0 auto 30px auto;
+}
+
+#about-me::after {
+  content: "";
+  background: #40803e;
+  width: 30%;
+  height: 2px;
+  display: block;
+  margin: 30px auto 0 auto;
 }
