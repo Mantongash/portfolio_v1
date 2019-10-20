@@ -27,7 +27,7 @@ header h2 {
 }
 
 #description {
-  height: 50vh;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -46,6 +46,10 @@ header h2 {
   font-size: 0.9rem;
   font-weight: 700;
   margin-top: 30px;
+}
+
+#description img {
+  border-radius: 20px;
 }
 /* 
 #description p:before {
