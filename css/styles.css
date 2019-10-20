@@ -51,12 +51,6 @@ header h2 {
 #description img {
   border-radius: 20px;
 }
-/* 
-#description p:before {
-  content: "";
-  border-top: 20px solid #40803e;
-  width: 100px;
-} */
 
 #header-content > p {
   text-align: center;
@@ -97,4 +91,47 @@ nav ul {
 
   list-style-type: none;
   width: 30%;
+}
+
+/* About section */
+#about {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-me {
+  width: 80%;
+  font-size: 1.5rem;
+  /* line-height: 3rem; */
+}
+
+#about-me p:nth-child(2) {
+  margin: 20px 0;
+}
+
+/* About section links */
+.moringa {
+  background: #637c33;
+}
+
+.freecodecamp {
+  background: #0a0a23;
+}
+
+.freecodecamp,
+.freecodecamp-profile,
+.moringa {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 4px;
+  padding: 5px;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.freecodecamp-profile {
+  background: #0a0a23;
 }
