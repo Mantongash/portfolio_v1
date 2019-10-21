@@ -52,7 +52,7 @@ header h2 {
   border-radius: 20px;
 }
 
-#header-content > p {
+#header-content>p {
   text-align: center;
   line-height: 2;
   font-size: 2rem;
@@ -159,4 +159,129 @@ nav ul {
   height: 2px;
   display: block;
   margin: 30px auto 0 auto;
+}
+
+/* Projects Section */
+#projects {
+  height: 70vh;
+  background: #9fff9c;
+}
+
+#projects-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 40px auto;
+  position: relative;
+  max-width: 500px;
+  font-size: 2rem;
+  font-weight: 300;
+  color: #40803e;
+  word-spacing: 1rem;
+}
+
+h3::before {
+  content: "";
+  display: block;
+  background: #40803e;
+  width: 120px;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+
+h3::after {
+  content: "";
+  display: block;
+  background: #40803e;
+  width: 120px;
+  height: 2px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+
+#styled-headings {
+  margin: 0 auto;
+}
+
+h3 span {
+  background: #9fff9c;
+  z-index: 3;
+}
+
+/* Styling projects */
+
+.caption {
+  text-align: center;
+  font-style: italic;
+}
+
+.individual-project {
+  position: relative;
+}
+
+.project-details {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 1.3rem;
+  color: #40803e;
+  font-weight: 700;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.project-details p {
+  margin-top: 20%;
+}
+
+.project-details:hover {
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.8);
+  transition: all 0.5s ease-in;
+}
+
+/* Button styling */
+.btn {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.btn-github {
+  background: #24292e;
+}
+
+.btn-live {
+  background: #000080;
+}
+
+/* Styles for tags */
+.tag {
+  display: inline-block;
+  padding: 4px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 700;
+
+}
+
+.html-tag {
+  background: #E34F26;
+}
+
+.css-tag {
+  background: #2757E4;
 }
