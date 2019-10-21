@@ -55,6 +55,11 @@ header h2 {
   text-align: center;
   line-height: 2;
   font-size: 2rem;
+  margin-top: 2%;
+}
+
+#header-content>p:first-child {
+  margin-top: 50%;
 }
 
 /* Link Styles */
@@ -93,7 +98,7 @@ nav ul {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
-  width: 30%;
+  width: 50%;
 
   top: 0;
   left: 0;
