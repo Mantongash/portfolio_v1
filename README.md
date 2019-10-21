@@ -31,7 +31,7 @@ This is the first version of my portfolio website. Over the next few months it w
 
 ---
 
-You can find the live site at :
+You can find the live site at : https://mantongash.github.io/portfolio_v1/
 
 ---
 
