@@ -22,8 +22,6 @@ header h2 {
   color: #40803e;
 }
 
-
-
 #description {
   height: 60vh;
   display: flex;
@@ -51,14 +49,14 @@ header h2 {
   margin-top: 10%;
 }
 
-#header-content>p {
+#header-content > p {
   text-align: center;
   line-height: 2;
   font-size: 2rem;
   margin-top: 2%;
 }
 
-#header-content>p:first-child {
+#header-content > p:first-child {
   margin-top: 50%;
 }
 
@@ -102,9 +100,7 @@ nav ul {
 
   top: 0;
   left: 0;
-
 }
-
 
 /* About section */
 #about {
@@ -179,7 +175,6 @@ nav ul {
   height: 70vh;
   background: #9fff9c;
   overflow: hidden;
-
 }
 
 #projects-links {
@@ -290,19 +285,17 @@ h3 span {
   border-radius: 4px;
   color: #fff;
   font-weight: 700;
-
 }
 
 .html-tag {
-  background: #E34F26;
+  background: #e34f26;
 }
 
 .css-tag {
-  background: #2757E4;
+  background: #2757e4;
 }
 
 /* Contacts section */
-
 
 #contacts h2 {
   text-align: center;
@@ -326,7 +319,6 @@ textarea {
 form {
   width: 30%;
   margin: 0 auto;
-
 }
 
 .form-btn {
@@ -349,7 +341,6 @@ footer {
   padding: 20px 0;
   line-height: 2;
   font-size: 1.3rem;
-
 }
 
 .form-btn:hover {
@@ -360,6 +351,12 @@ footer {
 
 .heart {
   color: red;
+}
+
+/* Social icons */
+.fab {
+  width: 30px;
+  color: #fff;
 }
 
 /* Responsive design */
