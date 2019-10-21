@@ -1,61 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Anthony Ng'ang'a, Full Stack</title>
-    <link rel="stylesheet" href="css/styles.css" />
-  </head>
-  <body>
-    <header>
-      <nav>
-        <h2>Anthony <span class="logo-break">Ng'ang'a</span></h2>
-        <ul>
-          <li><a href="#projects">projects</a></li>
-          <li><a href="#about">Who I'm I?</a></li>
-          <li><a href="#contacts">contacts</a></li>
-        </ul>
-      </nav>
-      <div id="header-content">
-        <div id="description">
-          <div id="ninja"></div>
-          <img src="images/my-pic.png" alt="My Picture" width="200px">
-          <h1>Anthony Ng'ang'a</h1>
-          <p>web architect - autodidact</p>
-        </div>
-        <p>Awesome, you found me :)</p>
-        <p>I'm a Full Stack Developer, trust me.</p>
-    </header>
-    
-    <main>
-      <section id="about">
-          <div class="ninja"></div>
-        <div id="about-me">
-          
-          <p>
-            I'm passionate about the web and create clean, functional
-            websites that are not, um, ugly.
-          </p>
-          <p>
-            I'm a lifelong learner. Having taught myself coding for some time, I
-            decided to join <a href="https://moringaschool.com" class="moringa" target="_blank">Moringa School</a>, an immersive coding bootcamp to
-            elevate my skills to Ninja-level. I'm now a black belt. The rest as they say, is
-            history. You can check my <a href="https://www.freecodecamp.org" target="_blank" class="freecodecamp">Free Code Camp</a> profile <a href="#" target="_blank" class="freecodecamp-profile">here</a>.
-          </p>
 
-          <p>
-            When I'm not coding, you'll find me watching movies and TV shows. I
-            appreciate great television.
-          </p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Anthony Ng'ang'a, Full Stack</title>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h2>Anthony <span class="logo-break">Ng'ang'a</span></h2>
+      <ul>
+        <li><a href="#projects">projects</a></li>
+        <li><a href="#about">Who I'm I?</a></li>
+        <li><a href="#contacts">contacts</a></li>
+      </ul>
+    </nav>
+    <div id="header-content">
+      <div id="description">
+        <div id="ninja"></div>
+        <img src="images/my-pic.png" alt="My Picture" width="200px">
+        <h1>Anthony Ng'ang'a</h1>
+        <p>web architect - autodidact</p>
       </div>
-      </section>
-      <section id="projects"></section>
-      <section id="contacts"></section>
-      <footer>
-        <p>&copy; 2019</p>
-        <p>Handcrafted with &hearts; by me, seriously.</p>
-      </footer>
-    </main>
-  </body>
+      <p>Awesome, you found me :)</p>
+      <p>I'm a Full Stack Developer, trust me.</p>
+  </header>
+
+  <main>
+    <section id="about">
+      <div class="ninja"></div>
+      <div id="about-me">
+
+        <p>
+          I'm passionate about the web and creating clean, functional
+          websites that are not, um, ugly.
+        </p>
+        <p>
+          I'm a lifelong learner. Having taught myself coding for some time, I
+          decided to join <a href="https://moringaschool.com" class="moringa" target="_blank">Moringa School</a>, an
+          immersive coding bootcamp to
+          elevate my skills to Ninja-level. I'm now a black belt. The rest as they say, is
+          history. You can check my <a href="https://www.freecodecamp.org" target="_blank" class="freecodecamp">Free
+            Code Camp</a> profile <a href="#" target="_blank" class="freecodecamp-profile">here</a>.
+        </p>
+
+        <p>
+          When I'm not coding, you'll find me watching movies and TV shows. I
+          appreciate great television.
+        </p>
+      </div>
+    </section>
+    <section id="projects">
+      <div id="styled-headings">
+        <h3><span>projects</span></h3>
+
+      </div>
+      <div id="projects-links">
+        <div>
+          <div class="individual-project">
+
+            <figure>
+              <img src="images/typo.png" alt="Typo project" width="500px">
+            </figure>
+            <div class="project-details">
+              <p>This is a landing page of a transcription tool that's soon to be released.</p>
+              <a href="https://github.com/Mantongash/typo" target="_blank" class="btn btn-github"><i
+                  class="fa fa-github">GitHub</i></a>
+              <a href="https://mantongash.github.io/typo/" target="_blank" class="btn btn-live"><i
+                  class="fa fa-globe ">Live</i></a>
+            </div>
+
+
+          </div>
+          <p class="caption">(Hover on the project to view it.)</p>
+          <p class="tag html-tag">HTML</p>
+          <p class="tag css-tag">CSS</p>
+        </div>
+
+        <div>
+
+          <div class="individual-project">
+
+            <figure>
+              <img src="images/menu.png" alt="Menu project" width="500px">
+            </figure>
+            <div class="project-details">
+              <p>This is a one-page website of a fictional hotel called Menu Hotel.</p>
+              <a href="https://github.com/Mantongash/menu-hotel" target="_blank" class="btn btn-github"><i
+                  class="fa fa-github ">GitHub</i></a>
+              <a href="https://mantongash.github.io/menu-hotel/" target="_blank" class="btn btn-live"><i
+                  class="fa fa-globe">Live</i></a>
+            </div>
+
+
+          </div>
+          <p class="caption">(Hover on the project to view it.)</p>
+          <p class="tag html-tag">HTML</p>
+          <p class="tag css-tag">CSS</p>
+        </div>
+      </div>
+
+    </section>
+    <section id="contacts"></section>
+    <footer>
+      <p>&copy; 2019</p>
+      <p>Handcrafted with &hearts; by me, seriously.</p>
+    </footer>
+  </main>
+</body>
+
 </html>
