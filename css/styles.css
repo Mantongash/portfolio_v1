@@ -287,9 +287,7 @@ h3 span {
 }
 
 /* Contacts section */
-#contacts {
-  height: 50vh;
-}
+
 
 #contacts h2 {
   text-align: center;
@@ -327,8 +325,24 @@ form {
   font-weight: 700;
 }
 
+/* Footer styling */
+footer {
+  background: #40803e;
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px 0;
+  line-height: 2;
+  font-size: 1.3rem;
+
+}
+
 .form-btn:hover {
   color: #fff;
   background: #40803e;
   transition: all 0.5s ease;
+}
+
+.heart {
+  color: red;
 }
