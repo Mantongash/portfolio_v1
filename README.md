@@ -72,7 +72,7 @@ At the time of publishing, this website was not responsive. That's bound to chan
 
 ---
 
-For any queries or concerns, please don't hesitate to contact on ngash.anto@gmail.com.
+For any queries or concerns, please don't hesitate to contact me on ngash.anto@gmail.com.
 
 ---
 
